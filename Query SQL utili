@@ -3,3 +3,5 @@ CREATE DATABASE IF NOT EXIST Gestionale;
 USE Gestionale;
 
 CREATE TABLE IF NOT EXIST Viaggi
+
+lololo
