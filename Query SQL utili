@@ -4,4 +4,4 @@ USE Gestionale;
 
 CREATE TABLE IF NOT EXIST Viaggi
 
-lololo
+lolalo
