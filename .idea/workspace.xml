@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92e6c228-24cc-4a76-83da-9aa1c6bc1c34" name="Default" comment="+ add form 0.1 (with errors)">
+    <list default="true" id="92e6c228-24cc-4a76-83da-9aa1c6bc1c34" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -30,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -145,11 +145,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525876154713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="+ add form 0.1 (no errors mother)">
+      <created>1525936283604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525936283604</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+ add form 0.2">
+      <created>1525936370571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525936370571</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1781000" />
+    <option name="totallyTimeSpent" value="2022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -198,7 +212,9 @@
     <MESSAGE value="+ remove something useless" />
     <MESSAGE value="+ add form 0.1" />
     <MESSAGE value="+ add form 0.1 (with errors)" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ add form 0.1 (with errors)" />
+    <MESSAGE value="+ add form 0.1 (no errors mother)" />
+    <MESSAGE value="+ add form 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ add form 0.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -236,8 +252,8 @@
     <entry file="file://$PROJECT_DIR$/../SCUOLA/2017-2018/Bidinost/x casa/es2/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
