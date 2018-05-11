@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXIST Gestionale;
+
+USE Gestionale;
+
+CREATE TABLE IF NOT EXIST Viaggi (
+    idAeroporto INT NOT NULL AUTO_INCREMENT,
+    foto CHAR(255),
+	PRIMARY KEY (idAeroporto)
+);
