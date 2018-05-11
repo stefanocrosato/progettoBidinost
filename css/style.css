@@ -5,8 +5,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-
 }
 
 #form{
@@ -21,8 +19,6 @@ body {
     margin-top: -100px;
     margin-left: -100px;
     color: white;
-
-    /*Img gradient per lo sfondo*/
 }
 
 #all {
