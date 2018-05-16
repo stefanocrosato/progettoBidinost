@@ -7,3 +7,4 @@ CREATE TABLE IF NOT EXIST Viaggi (
     foto CHAR(255),
 	PRIMARY KEY (idAeroporto)
 );
+
