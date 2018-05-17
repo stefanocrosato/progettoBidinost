@@ -1,0 +1,3 @@
+\sql
+
+\connect --mysql root@localhost:3306
