@@ -18,5 +18,3 @@ function writeMsg() {
 }
 
 writeMsg(); // call the function
-
-prova ad usare ajax
