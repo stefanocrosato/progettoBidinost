@@ -13,8 +13,23 @@
     mysql_select_db("prova") or die(mysql_error());
 */
     //echo "ci sei riuscito";
-function writeMsg() {
-    echo "Hello world!";
-}
 
-writeMsg(); // call the function
+/*** mysql hostname ***/
+$hostname = 'localhost';
+
+/*** mysql username ***/
+$username = 'fahrenheit';
+
+/*** mysql password ***/
+$password = 'ciao';
+
+try {
+    $dbh = new PDO("mysql:host=$hostname; dbname=excalibur", $username, $password);
+    /*** echo a message saying we have connected ***/
+    echo 'Connected to database';
+    }
+catch(PDOException $e)
+    {
+    echo $e->getMessage();
+    }
+?>
