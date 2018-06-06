@@ -9,20 +9,29 @@
     <script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
+<a href="index.php">CLICCAMI</a>
 <div id="all">
 
     <div id="form">
         <h1>LuftWaffer</h1>
-        <form>
+        <form method="POST" action="insert.php">
+			<!-- idViaggio	partenza	arrivo	oraPartenza	oraArrivo	costo	posti -->
             <input type="text" name="cittàPartenza" placeholder="Città Partenza"><br/>
             <input type="text" name="cittàArrivo" placeholder="Città Arrivo"><br/>
+			
+            <input type="text" name="oraPartenza" placeholder="Ora Partenza"><br/>
+            <input type="text" name="oraArrivo" placeholder="Ora Arrivo"><br/>
+			
+            <input type="text" name="costo" placeholder="Costo"><br/>
+            <input type="text" name="posti" placeholder="Posti"><br/>
             <label>Andata</label>
-            <input type="radio" name="bestemmie" id="andata"><br/>
+            <input type="radio" name="tipo" id="andata"><br/>
             <label>Andata e ritorno</label>
-            <input type="radio" name="bestemmie" id="andataRitorno"><br/>
+            <input type="radio" name="tipo" id="andataRitorno"><br/>
 
             <input type="date" name="dataPartenza">
             <input type="date" name="dataArrivo">
+			<input type="submit" value="Inserisci">
         </form>
     </div>
 

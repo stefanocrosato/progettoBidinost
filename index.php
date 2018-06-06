@@ -1,20 +1,28 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: crosa
- * Date: 17/05/2018
- * Time: 09:32
- */
+ <?php
+$servername = "localhost";
+$username = "fahrenheit";
+$password = "ciao";
+$database = "excalibur";
 
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
 
-    // Make a MySQL Connection
-/*
-    mysql_connect("localhost", "root", "EscxiPass_123") or die(mysql_error());
-    mysql_select_db("prova") or die(mysql_error());
-*/
-    //echo "ci sei riuscito";
-function writeMsg() {
-    echo "Hello world!";
+// Check connection
+if (!$conn) {
+	echo 'L';
+    die("Connection failed: " . mysqli_connect_error());
 }
+$sql = "SELECT * FROM viaggio;";
+$result = $conn->query($sql);
 
-writeMsg(); // call the function
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "idViaggio: ".$row["idViaggio"]." - Partenza: ". $row["partenza"]." - Arrivo: ".$row["arrivo"]." - oraPartenza: ".$row["oraPartenza"]." - oraArrivo: ". $row["oraArrivo"]." - Costo: ".$row["costo"]." - Posti: ".$row["posti"]."<br>";
+    }
+} else {
+    echo "0 results";
+}
+echo '<a href="index.html">Torna alla pagina di inserimento</a>';
+$conn->close();
+?>
