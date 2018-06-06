@@ -28,7 +28,7 @@ error_reporting(E_ALL | E_STRICT);
         Sito creato da <br>
         Crosato Stefano e<br>
         Micol Massimiliano<br>
-        Benvenuti sul vostro sito di prenotazioni!<br>
+        Benvenuti sul nostro sito di prenotazioni!<br>
         Se volete inserire dati sul database:<br>
         index.html<br>
         Grazie di usare il nostro servizio<br>
