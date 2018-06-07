@@ -14,7 +14,7 @@ error_reporting(E_ALL | E_STRICT);
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-<div id="all">
+<div id="a">
     <font color="white">
     <marquee
             color:white
@@ -41,21 +41,38 @@ error_reporting(E_ALL | E_STRICT);
             <select class="selectpicker" name="partenza">
                 <option>Seleziona la tua partenza</option>
                 <?php
-                $items = ConnectionDB::getFromSQL("SELECT * FROM viaggio;");
-                var_dump($items);
-                foreach ($items as $item) {
-                    echo '<option value="' . $item['idViaggio'] . '">' . $item['partenza'] . '</option>';
-                }
+					$servername = "localhost";
+					$username = "fahrenheit";
+					$password = "ciao";
+					$database = "excalibur";
+
+					// Create connection
+					$conn = mysqli_connect($servername, $username, $password, $database);
+					$sql = "SELECT partenza FROM viaggio;";
+					$result = $conn->query($sql);
+					while($row = $result->fetch_assoc()) {
+						echo $item;
+						echo '<option value="' . $row['partenza'] . '">' . $row['partenza'] . '</option>';
+					}
                 ?>
             </select>
             <select name="arrivo">
                 <option>Seleziona la tua destinazione</option>
                 <?php
-                $items = ConnectionDB::getFromSQL("SELECT * FROM viaggio;");
-                var_dump($items);
-                foreach ($items as $item) {
-                    echo '<option value="' . $item['idViaggio'] . '">' . $item['arrivo'] . '</option>';
-                }
+					$servername = "localhost";
+					$username = "fahrenheit";
+					$password = "ciao";
+					$database = "excalibur";
+
+					// Create connection
+					$conn = mysqli_connect($servername, $username, $password, $database);
+					$sql = "SELECT arrivo FROM viaggio;";
+					$result = $conn->query($sql);
+					var_dump($result);
+					while($row = $result->fetch_assoc()) {
+						echo $item;
+						echo '<option value="' . $row['arrivo'] . '">' . $row['arrivo'] . '</option>';
+					}
                 ?>
             </select>
             <input type="submit" class="btn btn-default" value="Prenota il tuo viaggio!">
