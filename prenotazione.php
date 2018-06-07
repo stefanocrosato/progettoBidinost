@@ -14,6 +14,10 @@
 			h5 {
 				color: #444444;
 			}
+            #form{
+                top: 20%;
+                left: 50%;
+            }
 		</style>
 	</head>
 		<body>
