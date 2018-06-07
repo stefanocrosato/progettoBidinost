@@ -128,7 +128,7 @@
 					echo '</div>';
 				} else {
 					echo "<h1>OOPS! Sono stati trovati 0 risultati per il volo richiesto </h1><br/>";
-					echo '<a href="/progettoBidinost/from.php">Clicca qui per tornare alla scelta del volo</a>';
+					echo '<a href="/progettoBidi/from.php">Clicca qui per tornare alla scelta del volo</a>';
 				}
 			?>
 		</div>
