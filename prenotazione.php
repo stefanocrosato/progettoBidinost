@@ -18,6 +18,9 @@
                 top: 20%;
                 left: 50%;
             }
+            h1{
+                color: white;
+            }
 		</style>
 	</head>
 		<body>
