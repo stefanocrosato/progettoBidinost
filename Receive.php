@@ -109,7 +109,7 @@
 					echo '<th>Posti disponibili</th>';
 					echo '</tr>';
 					while($row = $result->fetch_assoc()) {
-						$link = "/progettoBidinost/prenotazione.php?idViaggio=".$row['idViaggio']."&costo=".$row['costo'];
+						$link = "/progettoBidi/prenotazione.php?idViaggio=".$row['idViaggio']."&costo=".$row['costo'];
 						$oraPartenza = $row['oraPartenza'];
 						$oraArrivo = $row['oraArrivo'];
 						$costo = $row['costo'];
